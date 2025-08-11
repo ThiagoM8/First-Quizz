@@ -10,6 +10,7 @@
 
 /*INICIANDO PELO BODY*/
 body {
+background-image: ;
 background-color: #666666;
 color: #ffba37; /* SERVE PARA ESTILIZAR A FONTE*/
 font-family: "Cabin", sans-serif;
@@ -18,7 +19,7 @@ font-weight: 300;
 
 /*Header*/
 header {
-    border: 2px solid red;
+    border: .01px solid black;
     color: black;
     background-color: #4b4b4b;
     margin: 0;
@@ -44,4 +45,145 @@ section {
 /*h2*/
 h2 {
     color: orange;
+    font-size: 1.2rem;
+}
+
+/*SELECIONAR O ATRIBUTO DO INPUT - CASO SEJA MAIS DE UM COLOCAR VIRGULA*/
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #493363;
+}
+
+/*SELEÇÃO DA TAG (INPUT) INDIVIDUAL*/
+input[type="text"] {
+    width: 100;
+    padding: 0.6rem;
+    border: 2px solid #493363;
+    outline: none;
+    border-radius: 5px;
+}
+
+/*SELEÇÃO DE MÚLTIPLAS TAGS INPUT*/
+input[type="date"], input[type="password"], input[type="type"] {
+    width: 100;
+    padding: 0.6rem;
+    border: 2px solid #493363;
+    outline: none;
+    border-radius: 5px;
+}
+
+/*ALTERAÇÃO NO PLACEHOLDER*/
+input::placeholder {
+    color: gray;
+}
+
+/*ALTERAÇÃO DE COR E CURSOR*/
+select {
+    cursor:pointer; /*ADICIONA A MÃOZINHA*/
+    background-color: #4b4b4b;
+    color: #f7d455;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/*ALTERAÇÃO NA IMAGEM*/
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+/*ALTERAÇÃO DE TAMANHO E MODELO DAS BORDAS DA TABELA*/
+table {
+    width: 100;
+    border-collapse: collapse;
+}
+
+/*ALTERAÇÃO NO CABEÇALHO DA TABELA*/
+th {
+    background-color: #4b4b4b;
+    color: black;
+    padding: 1rem;
+}
+
+/*ALTERAÇÃO NA PARTE ESCRITA INTERNA DA TABELA*/
+td {
+    background-color: #4b4b4b;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+/*ALTERAÇÃO DE COR DO RODAPÉ DA TABELA*/
+tfoot td {
+    color: black;
+}
+
+/*ALTERAÇÃO DE BORDAS E CORES DO GABARITO*/
+details {
+    border: 0.1px solid #493363;
+    background-color: #4b4b4b;
+    border-radius: 5px;
+}
+
+/*ALTERAÇÃO DE BORDAS, MARGEM E CURSOR NAS RESPOSTAS DO GABARITO*/
+summary {
+    margin: 0.5rem;
+    padding: .08rem;
+    border: 2px solid #493363;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*ALTERAÇÃO DE ESPAÇAMENTO LATERAL DA LISTA*/
+ol {
+    padding-left: 1.5rem;
+}
+
+/*ALTERAÇÃO DO ESPAÇAMENTO SUPERIOR DA LISTA*/
+ol li {
+    padding: .2rem;
+}
+
+/*ALTERAÇÃO DE BORDAS E ESPAÇAMENTO DO CAMPO DE INFORMAÇÕES*/
+fieldset {
+    border: 2px solid #493363;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/*ALTERAÇÃO DE ESPAÇAMENTO DO TEXTO EM RELAÇÃO A LINHA*/
+legend {
+    padding: 0 1rem;
+}
+
+/*ALTERAÇÃO NAS BORDAS E CORES DA ÁREA DE TEXTO DO FEEDBACK*/
+textarea {
+    background-color: #4b4b4b;
+    outline: none;
+    border: 2px solid #493363;
+    border-radius: 5px;
+}
+
+/*ALTERAÇÕES DE ESPAÇAMENTO E BORDAS DO BOTÃO*/
+button {
+    border: 1px solid #493363;
+    padding: .2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*ESTILIZAÇÃO DO FOOTER*/
+footer {
+    background-color:#4b4b4b; 
+    padding: 2rem;
+    text-align: center;
+}
+
+/*PARA PUXAR UMA CLASSE DO HTML, UTILIZAR " . " ANTES DO VALOR*/
+.footer {
+    color: orange;
+}
+
+footer a {
+    text-decoration: none; /* PARA TIRAR O SUBLINHADO*/
 }
