@@ -1,0 +1,47 @@
+/*IMPORTAR A FONTE*/
+ @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap');
+
+/* USAR * PARA ESTILIZAR O GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INICIANDO PELO BODY*/
+body {
+background-color: #666666;
+color: #ffba37; /* SERVE PARA ESTILIZAR A FONTE*/
+font-family: "Cabin", sans-serif;
+font-weight: 300;
+}
+
+/*Header*/
+header {
+    border: 2px solid red;
+    color: black;
+    background-color: #4b4b4b;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+/*Main*/
+main {
+    padding: 2rem;
+    display: flex; /*POR PADRÃO ALINHA TODOS OS ELEMENTOS DE FORMA HORIZONTAL*/
+    flex-direction: column; /*RETORNA OS ELEMENTOS EM FORMA DE COLUNA*/
+    gap: 1.5rem; /*ESPAÇAMENTO ENTRE OS ELEMENTOS (SÓ DEPOIS DE UTILIZAR O DISPLAY FLEX*/
+}
+
+/*Section*/
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*h2*/
+h2 {
+    color: orange;
+}
